@@ -7,7 +7,7 @@
 **Título:** Errores de Lógica: Cuando el Código Hace lo que le Dices, No lo que Quieres  
 **Subtítulo:** El error más peligroso no es el que rompe el sistema. Es el que lo deja funcionar incorrectamente.  
 **Autor:** Roberto Pineda  
-**Fecha:** 2026-03-17  
+**Fecha:** 2026-03-15  
 **Categoría:** Clean Code / Ingeniería de Software  
 **Nivel:** Básico  
 **Idioma:** Español 🇭🇳  
