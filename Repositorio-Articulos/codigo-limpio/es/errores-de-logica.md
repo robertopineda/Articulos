@@ -4,7 +4,7 @@
 
 ---
 
-## 🗂️ Cabecera
+## Cabecera
 
 **Título:** Errores de Lógica: Cuando el Código Hace lo que le Dices, No lo que Quieres  
 **Subtítulo:** El error más peligroso no es el que rompe el sistema. Es el que lo deja funcionar incorrectamente.  
@@ -19,7 +19,7 @@
 
 ---
 
-## 1. 🎣 Introducción (Hook)
+## 1. Introducción
 
 Un sistema bancario procesó pagos durante tres días con el monto equivocado.
 
@@ -45,7 +45,7 @@ Lo que hace peligroso a este error no es su complejidad. Es su invisibilidad.
 
 ---
 
-## 3. 📖 Desarrollo del tema
+## 3. Desarrollo del tema
 
 ### 3.1 El error de condición: cuando los operadores mienten
 
@@ -142,7 +142,7 @@ En un sistema de pagos, saltarse el último elemento de una lista de transaccion
 
 ---
 
-## 4. 💻 Ejemplo práctico
+## 4. Ejemplo práctico
 
 El siguiente escenario muestra cómo un error de lógica puede pasar por múltiples capas sin ser detectado:
 
@@ -181,7 +181,7 @@ Esa variable extra no tiene costo en rendimiento. Tiene un valor enorme en clari
 
 ---
 
-## 5. 🔗 Conexión con artículos anteriores
+## 5. Conexión con artículos anteriores
 
 > Este es el **artículo 1** de la serie *"Errores Comunes en Programación"*.
 >
@@ -192,7 +192,7 @@ Esa variable extra no tiene costo en rendimiento. Tiene un valor enorme en clari
 
 ---
 
-## 6. 💡 Insight o reflexión técnica
+## 6. Insight o reflexión técnica
 
 > El compilador verifica la sintaxis. Los tests verifican los casos que pensaste. Solo el criterio técnico verifica si lo que escribiste es realmente lo que quisiste decir.
 >
@@ -218,7 +218,7 @@ El código que parece correcto y produce resultados incorrectos es el enemigo m�
 
 ---
 
-## 8. 📣 Llamado a la acción
+## 8. Llamado a la acción
 
 ¿Has encontrado un error de lógica en producción que pasó desapercibido por más tiempo del que debería?
 
