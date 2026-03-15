@@ -13,8 +13,8 @@ Artículos sobre escritura de código mantenible, principios de diseño, refacto
 | Artículo | Estado |
 |---|---|
 | [Manejo de excepciones: el error que todos cometen](./es/manejo-excepciones.md) | ✅ Publicado |
-| [Principios SOLID en Java EE](./es/solid-java-ee.md) | 📝 Pendiente |
-| [Por qué el código limpio no es un lujo](./es/codigo-limpio-necesidad.md) | 📝 Pendiente |
+| [Errores de Lógica: Cuando el Código Hace lo que le Dices, No lo que Quieres](./es/errores-de-logica.md) | ✅ Publicado |
+| [Manejo Incorrecto de Recursos: La Fuga que Nadie Ve](./es/manejo-recursos.md) | 📝 Pendiente |
 
 ### 🇺🇸 English
 | Article | Status |
