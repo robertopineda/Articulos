@@ -1,4 +1,4 @@
-# 📝 Plantilla de Artículo Técnico / Technical Article Template
+# Plantilla de Artículo Técnico / Technical Article Template
 
 > Copia este archivo en la carpeta `/es` o `/en` según el idioma, y nómbralo con guiones (ej. `patron-saga-explicado.md`).  
 > Copy this file into the `/es` or `/en` folder and name it with hyphens (e.g., `saga-pattern-explained.md`).
@@ -16,20 +16,20 @@
 
 ---
 
-## 🎯 ¿De qué trata? / What is this about?
+## ¿De qué trata? / What is this about?
 
 *Una o dos oraciones que resuman el problema que aborda y a quién va dirigido.*  
 *One or two sentences summarizing the problem and the target audience.*
 
 ---
 
-## 🧩 El problema / The problem
+## El problema / The problem
 
 *Contexto o situación que motivó el artículo. Puede ser un error común, una decisión difícil o una lección aprendida.*
 
 ---
 
-## 💡 La solución / The concept
+## La solución / The concept
 
 *Contenido principal. Usa subtítulos (`###`), ejemplos de código, tablas o listas según aplique.*
 
@@ -50,20 +50,20 @@ public class Ejemplo {
 
 ---
 
-## ✅ Conclusión / Conclusion
+## Conclusión / Conclusion
 
 *Resumen de los puntos clave. Qué debe llevarse el lector.*
 
 ---
 
-## 📚 Referencias / References
+## Referencias / References
 
 - [Título](URL)
 - *Clean Code* — Robert C. Martin
 
 ---
 
-## 🔗 Artículos relacionados / Related articles
+## Artículos relacionados / Related articles
 
 - [Nombre](../es/archivo.md)
 
