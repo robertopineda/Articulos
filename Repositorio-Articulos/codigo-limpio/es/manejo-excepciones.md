@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 ¿De qué trata este artículo?
+## ¿De qué trata este artículo?
 
 El manejo de excepciones es una de las áreas donde más deuda técnica se acumula silenciosamente. Este artículo explica los errores más comunes y cómo diseñar un flujo de excepciones que comunique intención, facilite el debugging y no rompa la lógica de negocio.
 
@@ -16,7 +16,7 @@ Dirigido a desarrolladores Java con experiencia media o senior que trabajan en s
 
 ---
 
-## 🧩 El problema
+## El problema
 
 Cuántas veces has visto algo así en producción:
 
@@ -119,7 +119,7 @@ public class GlobalExceptionHandler {
 
 ---
 
-## ✅ Conclusión
+## Conclusión
 
 Tres reglas para llevarte:
 
@@ -131,14 +131,14 @@ El sistema que más te va a agradecer esto eres tú mismo, seis meses después, 
 
 ---
 
-## 📚 Referencias
+## Referencias
 
 - *Clean Code*, Capítulo 7 — Robert C. Martin
 - *Effective Java*, Items 69-77 — Joshua Bloch
 
 ---
 
-## 🔗 Artículos relacionados
+## Artículos relacionados
 
 - [Principios SOLID en Java EE](./solid-java-ee.md)
 - [Por qué el código limpio no es un lujo](./codigo-limpio-necesidad.md)
