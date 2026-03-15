@@ -33,7 +33,7 @@ Eso es un error de lógica. Y es el tipo de error más difícil de detectar, por
 
 ---
 
-## 2. 🧩 Contexto del problema
+## 2. Contexto del problema
 
 Un error de lógica ocurre cuando el código es sintácticamente correcto, compila sin problemas, se ejecuta sin excepciones, pero produce resultados incorrectos porque la intención del desarrollador no quedó bien expresada en el código.
 
@@ -200,7 +200,7 @@ Esa variable extra no tiene costo en rendimiento. Tiene un valor enorme en clari
 
 ---
 
-## 7. ✅ Conclusión
+## 7. Conclusión
 
 Los errores de lógica son los más silenciosos y, por eso, los más costosos.
 
@@ -243,98 +243,8 @@ Comparte tu experiencia — estos casos son los que más se aprende leyendo.
 
 ---
 
-## 📱 Versiones para otras plataformas
 
-### LinkedIn (versión narrativa)
 
-Un sistema bancario procesó pagos con el monto equivocado durante tres días.
-
-No lanzó ninguna excepción. No generó ninguna alerta. Los logs estaban limpios.
-
-El problema era una condición mal escrita. El código hacía exactamente lo que le habían dicho. El error estaba en lo que le dijeron.
-
-Eso es un error de lógica. Y es el tipo de error más difícil de detectar en ingeniería de software, porque el sistema no pide ayuda.
-
-En más de 10 años trabajando en sistemas financieros, he aprendido que estos errores se repiten siempre en los mismos lugares: condiciones booleanas invertidas, precedencia de operadores malinterpretada, límites que están uno por encima o uno por debajo de donde deben estar.
-
-Tres hábitos que los reducen de forma significativa:
-
-**1. Escribe la condición en lenguaje natural primero.** Si no puedes leerla en voz alta y entenderla, el código tampoco va a expresarla correctamente.
-
-**2. Usa variables intermedias con nombres que declaren intención.** `dentroDelLimite` es mejor que la condición inline, aunque sean equivalentes en tiempo de ejecución.
-
-**3. Prueba siempre los valores en los bordes.** El primero, el último, el exactamente en el límite. Ahí viven los errores de lógica.
-
-El compilador verifica la sintaxis. Los tests verifican los casos que pensaste. Solo el criterio técnico verifica si lo que escribiste es realmente lo que quisiste decir.
-
-¿Has encontrado un error de lógica en producción que pasó más tiempo del que debería sin ser detectado? ¿Cómo lo encontraron?
-
----
-
-### X / Twitter (hilo listo para publicar)
-
-```
-Un sistema bancario procesó pagos incorrectos durante 3 días.
-
-Sin excepciones. Sin alertas. Logs limpios.
-
-El problema: una condición mal escrita.
-
-El error más peligroso no es el que rompe el sistema.
-Es el que lo deja funcionar incorrectamente. 🧵
-
----
-
-Los errores de lógica son invisibles para el compilador.
-Invisibles para las herramientas de análisis.
-Invisibles para los dashboards de infraestructura.
-
-Solo los ves cuando revisas los datos
-y algo no cuadra.
-
----
-
-Aparecen siempre en los mismos lugares:
-
-→ Condiciones booleanas invertidas
-→ Precedencia de operadores malinterpretada
-→ Límites un paso por encima o por debajo
-
----
-
-El más común:
-
-❌ if (saldo > limite) { aprobar(); }
-✅ if (saldo <= limite) { aprobar(); }
-
-Una letra de diferencia.
-Lógica completamente opuesta.
-
----
-
-3 hábitos que los reducen:
-
-1. Escribe la condición en lenguaje natural primero
-2. Usa variables con nombres que declaren intención
-3. Prueba siempre los valores en los bordes exactos
-
----
-
-El compilador verifica la sintaxis.
-Los tests verifican los casos que pensaste.
-
-Solo el criterio técnico verifica
-si lo que escribiste es lo que quisiste decir.
-
----
-
-Este es el artículo 1 de la serie "Errores Comunes en Programación".
-
-El artículo completo con ejemplos de código está en mi GitHub:
-[link al artículo]
-
-¿Te ha pasado este error en producción?
-```
 
 ---
 
