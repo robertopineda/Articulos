@@ -42,7 +42,7 @@ El problema no es que los desarrolladores sean descuidados. El problema es que n
 
 ---
 
-## 💡 Principios para un manejo correcto
+## Principios para un manejo correcto
 
 ### 1. No captures lo que no puedes manejar
 
