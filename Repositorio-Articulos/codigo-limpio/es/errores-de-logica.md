@@ -186,7 +186,7 @@ Esa variable extra no tiene costo en rendimiento. Tiene un valor enorme en clari
 > Es el punto de partida porque los errores de lógica son la base de todos los demás.  
 > En el siguiente artículo de la serie analizamos qué pasa cuando el sistema sí detecta el error pero nadie lo está escuchando: las excepciones no manejadas.
 >
-> → [Artículo 2: Excepciones no manejadas — el error que nadie ve hasta que es tarde](./manejo-excepciones.md)
+> → [Artículo 2: Manejo de Excepciones: El Error que Todos Cometen](./manejo-excepciones.md)
 
 ---
 
