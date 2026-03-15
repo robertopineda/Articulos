@@ -4,8 +4,6 @@
 
 ---
 
-## Cabecera
-
 **Título:** Errores de Lógica: Cuando el Código Hace lo que le Dices, No lo que Quieres  
 **Subtítulo:** El error más peligroso no es el que rompe el sistema. Es el que lo deja funcionar incorrectamente.  
 **Autor:** Roberto Pineda  
