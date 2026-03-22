@@ -222,7 +222,7 @@ public class TransferenciaRepository {
 
 ---
 
-## 5. Conexión con artículos anteriores
+## 5. Artículos anteriores
 
 > Este es el **artículo 3** de la serie *"Errores Comunes en Programación"*.
 >
@@ -234,7 +234,7 @@ public class TransferenciaRepository {
 
 ---
 
-## 6. Insight o reflexión técnica
+## 6. Reflexión técnica
 
 > Un sistema con fugas de recursos funciona bien en desarrollo, bien en QA, bien la primera semana en producción.
 >
@@ -267,7 +267,7 @@ Comparte tu experiencia — estos casos siempre tienen detalles que no aparecen 
 
 ---
 
-## 📚 Referencias
+## Referencias
 
 - *Effective Java*, Item 9: Prefer try-with-resources to try-finally — Joshua Bloch
 - *Clean Code*, Capítulo 7: Error Handling — Robert C. Martin
