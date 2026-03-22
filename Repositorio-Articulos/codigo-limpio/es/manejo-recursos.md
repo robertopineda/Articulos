@@ -4,7 +4,7 @@
 
 ---
 
-## 🗂️ Cabecera
+## Cabecera
 
 **Título:** Manejo Incorrecto de Recursos: La Fuga que Nadie Ve  
 **Subtítulo:** Conexiones abiertas, memoria que nunca se libera, archivos que nadie cierra. El sistema funciona. Por ahora.  
@@ -19,7 +19,7 @@
 
 ---
 
-## 1. 🎣 Introducción (Hook)
+## 1. Introducción (Hook)
 
 Imagina un grifo que gotea. No mucho. Solo un poco.
 
@@ -31,7 +31,7 @@ He visto este escenario tres veces en producción. Siempre el mismo patrón. Sie
 
 ---
 
-## 2. 🧩 Contexto del problema
+## 2. Contexto del problema
 
 Un recurso, en términos de software, es cualquier cosa que el sistema operativo o la infraestructura te presta temporalmente: una conexión de base de datos, un archivo abierto, un socket de red, un hilo de ejecución, un bloque de memoria.
 
@@ -43,7 +43,7 @@ El problema no es difícil de entender. Es fácil de olvidar. Y en sistemas con 
 
 ---
 
-## 3. 📖 Desarrollo del tema
+## 3. Desarrollo del tema
 
 ### 3.1 Conexiones de base de datos: el recurso más olvidado
 
@@ -166,7 +166,7 @@ public long contarLineas(Path archivo) throws IOException {
 
 ---
 
-## 4. 💻 Ejemplo práctico
+## 4. Ejemplo práctico
 
 Este ejemplo muestra cómo un servicio bancario maneja correctamente múltiples recursos en una sola operación:
 
@@ -222,7 +222,7 @@ public class TransferenciaRepository {
 
 ---
 
-## 5. 🔗 Conexión con artículos anteriores
+## 5. Conexión con artículos anteriores
 
 > Este es el **artículo 3** de la serie *"Errores Comunes en Programación"*.
 >
@@ -234,7 +234,7 @@ public class TransferenciaRepository {
 
 ---
 
-## 6. 💡 Insight o reflexión técnica
+## 6. Insight o reflexión técnica
 
 > Un sistema con fugas de recursos funciona bien en desarrollo, bien en QA, bien la primera semana en producción.
 >
@@ -243,7 +243,7 @@ public class TransferenciaRepository {
 
 ---
 
-## 7. ✅ Conclusión
+## 7. Conclusión
 
 Las fugas de recursos son silenciosas, acumulativas y devastadoras bajo carga. Tres reglas concretas:
 
@@ -257,7 +257,7 @@ El grifo que gotea no parece urgente hasta que el tanque está vacío.
 
 ---
 
-## 8. 📣 Llamado a la acción
+## 8. Llamado a la acción
 
 ¿Has tenido un incidente en producción causado por agotamiento del pool de conexiones o un `OutOfMemoryError`?
 
