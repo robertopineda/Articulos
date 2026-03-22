@@ -9,7 +9,7 @@
 **Título:** Manejo Incorrecto de Recursos: La Fuga que Nadie Ve  
 **Subtítulo:** Conexiones abiertas, memoria que nunca se libera, archivos que nadie cierra. El sistema funciona. Por ahora.  
 **Autor:** Roberto Pineda  
-**Fecha:** 2026-03-31  
+**Fecha:** 2026-03-22
 **Categoría:** Clean Code / Ingeniería de Software  
 **Nivel:** Intermedio  
 **Idioma:** Español 🇭🇳  
